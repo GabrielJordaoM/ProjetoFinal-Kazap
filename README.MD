@@ -1,10 +1,10 @@
 # Projeto Final Kazap Academy 2023 - Banco
 
-Primeiramente antes de começar a falar dos comandos que estão no codigo, vamos instalar as gems que acompanham ele:
+Primeiramente, antes de começar a falar sobre os comandos que estão no código, vamos instalar as gems que o acompanham:
 
 ## Instalação:
 
-vá até a pasta onde o projeto está em execute:
+Vá até a pasta onde o projeto está e execute:
 
 ```bash
 bundle install
@@ -18,7 +18,7 @@ sequel -m db/migrations sqlite:://db/bank.db
 
 ## O que fazer após:
 
-Execute o comando a seguir para iniciar o programa
+Execute o comando a seguir para iniciar o programa:
 
 ```bash
 ruby app.rb
@@ -26,29 +26,29 @@ ruby app.rb
 
 ## antes de começar:
 
-Antes de começar a utilizar os comandos precisamos criar a sua conta (e de outras pessoas para que se possa testar as proximas opçoes):
-use a opção: "5. Create Client"
+Antes de utilizar os comandos, precisamos criar sua conta (e de outras pessoas para que possamos testar as próximas opções):
+Use a opção: "5. Create Client"
 
-E tambem ultilizar a opção de:7. Create Account
-Para cria a conta bancaria para você(e outras peços que queiram ultilizar)
+E também utilize a opção: 7. Create Account
+Para criar a conta bancária para você (e outras pessoas que queiram utilizar).
 
 ## Deposito:
-Opçãõ 1 é a do deposito: coloque o numero da CONTA que você criou e insira o quando de dinheiro que você quer depositar
+Opção 1 é a do depósito: coloque o número da CONTA que você criou e insira o valor de dinheiro que deseja depositar.
 
 ## Saque:
-Opçãõ 2 é a do saque, novamente coloque o numero da conta que você criou e o quanto de dinheiro quer sacar(com o limite de -100 reais entrando no cheque especial)
+Opção 2 é a do saque, novamente coloque o número da conta que você criou e o valor de dinheiro que deseja sacar (com o limite de -100 reais, entrando no cheque especial).
 
 ## Trasferencia:
-Opção 3 é a trasferencia, insira o numero da sua conta (ou a conta que vai sair o dinheiro) o logo após insira o numero da conta que vai receber o dinheiro, e por ultimo a quantia
+Opção 3 é a transferência, insira o número da sua conta (ou a conta de onde sairá o dinheiro) e logo após insira o número da conta que receberá o dinheiro, e por último a quantia.
 
 ## Extrato:
-nesta opção coloque o numero da conta que desxzeja ver o extrato e tera o extrato na tela, se quiser pode baixar tanto em formato JSON e CSV]
+Nesta opção, coloque o número da conta que deseja ver o extrato e terá o extrato na tela. Se quiser, pode baixar em formato JSON ou CSV.
 
 ## Criar e editar cliente:
-As opçoes 5 e 6 do menu são parecidas na 5 criaremos o cliente e na 6 editaremos ele.
+As opções 5 e 6 do menu são parecidas. Na 5, criaremos o cliente, para isso, precisaremos de algumas informações como nome, celular e endereço. Na 6, editaremos os dados do cliente, passando por todos os atributos.
 
-## Criar, editar e deletar o Cliente:
-opçãõ 7 criaremos a conta para poder depositar/sacar ou trasferir 8 podemos editar o numero da conta e por ultimo a 9 após colocar o numero da conta a deletaremos
+## Criar, editar e deletar a Conta:
+Opção 7 criaremos a conta (apenas precisamos de quem será a conta e de um número de sua preferência para criar) para poder depositar/sacar ou transferir. Na 8, podemos editar o número da conta e, por último, na 9, após colocar o número da conta, a deletaremos.
 
 ## Sair
-Opção 10 é´ultima e é a que você pode terminar as suas operaçoes no banco.
+Opção 10 é a última e permite que você encerre suas operações no banco.
